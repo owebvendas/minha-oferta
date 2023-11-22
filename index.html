@@ -1,0 +1,1110 @@
+<!DOCTYPE html><html lang="pt-BR" dir="ltr">
+    
+<head>
+
+  <link rel="icon" href="images/favicon.png">
+   
+    <title>jogo lucrativo</title>
+
+    <style>@media (max-width:640px){.atm-hidden-mobile{display:none}}@media (min-width:640px){.atm-hidden-desktop{display:none}}.col-span-1{grid-column: span 1 / span 1;}.col-span-2{grid-column: span 2 / span 2;}.items-center{align-items:center}.grid-cols-6{grid-template-columns: repeat(6, minmax(0, 1fr))}.grid-cols-5{	grid-template-columns: repeat(5, minmax(0, 1fr))}.grid-cols-4{grid-template-columns: repeat(4, minmax(0, 1fr))}.grid-cols-2{grid-template-columns: repeat(2, minmax(0, 1fr))}.grid-cols-3{grid-template-columns: repeat(3, minmax(0, 1fr))}.grid-cols-1{grid-template-columns: repeat(1, minmax(0, 1fr))}.grid{display:grid}.basis-1\/2{flex-basis:50%}.flex{display:flex}.gap-1{gap:4px}.gap-2{gap:8px}.gap-4{gap:16px}.gap-6{gap:24px}.gap-12{48px}.gap-24{gap:96px}.justify-center{justify-content:center}.basis-full{flex-basis:100%}html{scroll-behavior:smooth;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent}body,center,dd,del,div,dt,em,footer,h1,h2,h3,h4,h5,h6,i,iframe,img,p,q,s,small,span,strike,strong,sub,sup,table,tbody,td,tr,u{margin:-1px 0 0 0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;font-family:Roboto,sans-serif}.u{-moz-user-select:none;-webkit-user-select:none;cursor:default}table{border-collapse:collapse;border-spacing:0}body{line-height:1}body{background-color:#000000;overflow-x:hidden}iframe,img,svg{max-width:100%}h1,h1 b,h1 span,h2,h2 b,h2 span,h3,h3 b,h3 span{font-family:Poppins,sans-serif}a{text-decoration:none;font-family:Roboto,sans-serif}a.btn{font-family:Montserrat,sans-serif}em span.lg,em span.md,em span.sm{font-style:italic}@media (max-width:600px){.flex-large,.flex-small{margin-right:0!important;margin-bottom:16px}}.flexrow{display:flex;flex-direction:row;flex-wrap:wrap;align-items:center}.flex-large,.flex-small{flex-basis:100%}.flex-large:last-child,.flex-small:last-child{margin-right:0!important}@media (min-width:600px){.flex-small{flex:1;margin-bottom:0!important;padding-bottom:0!important}.flex-small.half{flex:0 0 calc(1 / 2 * 100%)}.flex-small.one-fifth{flex:0 0 calc(1 / 5 * 100%)}.flex-small.two-fifths{flex:0 0 calc(2 / 5 * 100%)}.flex-small.one-fourth{flex:0 0 calc(1 / 4 * 100%)}.flex-small.two-fourths{flex:0 0 calc(2 / 4 * 100%)}.flex-small.three-fourths{flex:0 0 calc(3 / 4 * 100%)}.flex-small.one-third{flex:0 0 calc(1 / 3 * 100%)}.flex-small.two-thirds{flex:0 0 calc(2 / 3 * 100%)}}@media (min-width:1000px){.flex-large{flex:1;margin-bottom:0}.flex-large.half{flex:0 0 calc(1 / 2 * 100%)}.flex-large.one-fifth{flex:0 0 calc(1 / 5 * 100%)}.flex-large.two-fifths{flex:0 0 calc(2 / 5 * 100%)}.flex-large.one-fourth,.flex-large.two-fourths{flex:0 0 calc(1 / 4 * 100%)}.flex-large.three-fourths{flex:0 0 calc(3 / 4 * 100%)}.flex-large.one-third{flex:0 0 calc(1 / 3 * 100%)}.flex-large.two-thirds{flex:0 0 calc(2 / 3 * 100%)}}@media (min-width:640px){.sm\:gap-1{gap:6px}.sm\:gap-2{gap:12px!important}.sm\:gap-4{gap:24px}.sm\:gap-6{gap:32px}.sm\:gap-12{gap:64px}.sm\:gap-24{gap:128px}.sm\:grid-cols-6{grid-template-columns:repeat(6,minmax(0,1fr))}.sm\:grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}.sm\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.sm\:grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}}</style>
+    
+    <style>
+     <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      position: relative;
+      width: 100%;
+      max-width: 800px;
+      overflow: hidden;
+    }
+    .container iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .final-message {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      font-size: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+    
+    </style>
+    <style>.pulsing { animation-name: pulsing; animation-duration: 1s; animation-timing-function: ease-out; animation-iteration-count: infinite; } @keyframes pulsing { 0% { box-shadow: 0 0 0 0 #006ff9e1 } 80% { box-shadow: 0 0 0 12px #00ff1700 } }</style>
+    <style>.px-1{padding-left:4px;padding-right:4px}.pt-0.5{padding-top:2px}.mt-4{margin-top:16px}@media (min-width:640px){.sm\:text-sm{font-size:14px;line-height:20px}}.mt-2{margin-top:8px}.mb-2{margin-bottom:8px}.flex{display:flex}.w-full{width:100%}.space-x-1>:not([hidden])~:not([hidden]){margin-left:.25rem}.items-center{align-items:center}.font-\[Helvetica\]{font-family:Helvetica,Arial,sans-serif}.cursor-pointer{cursor:pointer}.rounded-full{border-radius:99999px}.h-12{height:48px}.w-12{width:48px}.flex-col{flex-direction:column}.py-1{padding-top:4px;padding-bottom:4px}.px-3{padding-left:12px;padding-right:12px}.pl-0\.5,.px-0\.5{padding-left:2px}.rounded-\[18px\]{border-radius:18px}.bg-stone-100{background-color:#f5f5f4}.px-0\.5{padding-right:2px}.font-semibold{font-weight:600}.text-\[\#365899\]{color:#365899}.text-\[13px\]{font-size:13px}.leading-4{line-height:16px}.hover\:underline:hover{text-decoration-line:underline}.text-sm{font-size:14px}.relative{position:relative}.justify-between{justify-content:space-between}.grow{flex-grow:1}.text-xs{font-size:12px}.text-\[\#90949c\]{color:#90949c}.ml-px{margin-left:1px}.gap-1{gap:4px}.w-fit{width:fit-content}.hidden{display:none}.-mt-1{margin-top:-4px}.-mt-2{margin-top:-8px}.mr-2{margin-right:8px}.h-4,.h-5{height:16px}.drop-shadow{--tw-drop-shadow:drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1)) drop-shadow(0 1px 1px rgba(0, 0, 0, 0.06));filter:var(--tw-drop-shadow)}.bg-slate-50{background-color:#f8fafc}.py-0\.5{padding-top:2px;padding-bottom:2px}.pr-1{padding-right:4px}.block{display:block}.w-4{width:16px}.-ml-1{margin-left:-4px}.ml-4{margin-left:16px}.gap-x-0\.5{column-gap:2px}.mr-0\.5{margin-right:2px;margin-left:2px}.border-l{border-left-width:1px}.border-slate-300{border-color:#cbd5e1}.border-dotted{border-style:dotted}.ml-5{margin-left:20px}.h-8{height:32px}.w-8{width:32px}.h-10{height:40px}.w-10{width:40px}@media (min-width:640px){.sm\:w-16{width:64px}.sm\:ml-12{margin-left:48px}}.pl-2{padding-left:8px}</style>
+    
+    <div class="division-AsgaKX4463041__wrapper">
+    <style>
+    #division-AsgaKX4463041 {
+    border: none;
+    border-radius: ;
+    margin: 0;
+    position: relative;
+    padding: 3vh 20vw 3vh 20vw;
+    background-color: #18181B;
+    }
+    @media (max-width:1200px) {
+    #division-AsgaKX4463041 {
+    padding: 2.25vh 15vw 2.25vh 15vw;
+    margin: 0;
+    }
+    }
+    @media (max-width:600px) {
+    #division-AsgaKX4463041 {
+    margin: 0;
+    padding: 1.5vh 1.5vw 1.5vh 1.5vw;
+    }
+    }
+    </style>
+    <div id="division-AsgaKX4463041" class="NpMoPp2051104">
+    <div class="headline-nRnzgg9624698">
+    <style>
+    .headline-nRnzgg9624698-element h1 {
+    font-size: 1.65vw;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: #ffffff;
+    line-height: 1.1;
+    font-weight: 500;
+    false
+    }
+    @media (max-width: 1200px) {
+    .headline-nRnzgg9624698-element h1 {
+    font-size: 2.50vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    }
+    }
+    @media (max-width: 640px) {
+    .headline-nRnzgg9624698-element h1 {
+    font-size: 4.38vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    text-align: center;
+    }
+    }
+    </style>
+    <div class="headline-nRnzgg9624698-element headline">
+    <h1>
+    <span style="color:#0088ff"><b>REVELADO:</b></span>�&nbsp;<b>Nesse pequeno vídeo vou te mostrar como baixar esse joguinho no seu celular e começar a lucrar</b>�&nbsp;<span style="color:#0088ff"><b>ainda hoje</b></span>,�&nbsp;<b>aperte o play!!!</b>
+    </h1>
+    </div>
+    </div>
+    <div class="text-LakhKS7893793">
+    <style>
+    .text-LakhKS7893793-element p {
+    font-size: 0.99vw;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: #ffffff;
+    line-height: 1.1;
+    font-weight: 400;
+    false
+    }
+    @media (max-width: 1200px) {
+    .text-LakhKS7893793-element p {
+    font-size: 1.50vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    }
+    }
+    @media (max-width: 640px) {
+    .text-LakhKS7893793-element p {
+    font-size: 2.25vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    text-align: center;
+    }
+    }
+    </style>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Container Responsivo</title>
+      </head>
+      <body>
+      
+        <div class="text-LakhKS7893793-element text">
+          <p><u><b>Disponível para Baixar até</b></u>�&nbsp;<span id="data" class="lg"></span>�&nbsp;</p>
+        </div>
+      
+        <script src="script.js"></script><div class="text-LakhKS7893793-element text">
+   
+    </div>
+    <div class="container-WWLYGR4504672">
+    <style>
+    .justify-center {
+    justify-content: center;
+    }
+    @media (max-width: 640px) {
+    .m-justify-center {
+    justify-content:center;
+    }
+    }
+    .container-WWLYGR4504672-element {
+    border: none;
+    box-shadow: none;
+    background-color: #18181B;
+    border-radius: ;
+    padding: 16px 16px 16px 16px;
+    text-align: ;
+    margin: 0 auto 0 auto;
+    box-sizing: border-box;
+    max-width: 100%;
+    }
+    @media (max-width: 1200px) {
+    .container-WWLYGR4504672-element {
+    margin: 0 auto 0 auto;
+    padding: 0.8vh 0.8vw 0.8vh 0.8vw;
+    }
+    }
+    @media (max-width: 640px) {
+    .container-WWLYGR4504672-element {
+    margin: 0 auto 0 auto;
+    padding: 1.5vh 1.5vw 0.001vh 1.5vw;
+    ;
+    }
+    }
+    </style>
+    
+    </div>
+    
+    </style>
+    
+         
+            <div class="container">
+              <iframe src="https://fast.wistia.net/embed/iframe/mvem7ivu6r?seo=true&videoFoam=true" 
+                      title="video do andre" 
+                      allow="autoplay; fullscreen" 
+                      allowtransparency="true" 
+                      frameborder="0" 
+                      scrolling="no" 
+                      class="wistia_embed" 
+                      name="wistia_embed" 
+                      msallowfullscreen>
+              </iframe>
+            </div>
+            <script src="https://fast.wistia.net/assets/external/E-v1.js" async></script>
+            <p>Assista até o final</p>
+          </body>
+    </div>
+    <div class="description-BABhis4649555">
+    <style>
+    .description-BABhis4649555-element h3 {
+    font-size: 1.32vw;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: #ffffff;
+    line-height: 1.1;
+    font-weight: 400;
+    false
+    }
+    @media (max-width: 1200px) {
+    .description-BABhis4649555-element h3 {
+    font-size: 1.80vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    }
+    }
+    @media (max-width: 640px) {
+    .description-BABhis4649555-element h3 {
+    font-size: 4.00vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    text-align: center;
+    }
+    }
+    </style>
+    <div class="description-BABhis4649555-element ">
+    <h3>
+        
+        <span id="numeroAssistindo" class="xl"></span>�&nbsp;pessoas estão assistindo esse vídeo agora
+    </h3>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="division-dvwKqE4790104__wrapper">
+    <style>
+    #division-dvwKqE4790104 {
+    border: none;
+    border-radius: ;
+    margin: 0;
+    position: relative;
+    padding: 0.01vh 20vw 0.01vh 20vw;
+    background-color: #18181B;
+    }
+    @media (max-width:1200px) {
+    #division-dvwKqE4790104 {
+    padding: 0.001vh 15vw 0.001vh 15vw;
+    margin: 0;
+    }
+    }
+    @media (max-width:600px) {
+    #division-dvwKqE4790104 {
+    margin: 0;
+    padding: 1.5vh 1.5vw 1.5vh 1.5vw;
+    }
+    }
+    </style>
+    <div id="division-dvwKqE4790104" class="bAIhtp2051106 pefyNz2053208">
+    <div class="button-lIuFFh4829683">
+    <style>
+    .pulsing_lIuFFh4829683 {
+    animation-name: pulsing_lIuFFh4829683;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    }
+    @keyframes pulsing_lIuFFh4829683 {
+    0% {
+    box-shadow: 0 0 0 0 #006ff9e1
+    }
+    80% {
+    box-shadow: 0 0 0 12px #006ff900
+    }
+    }
+    a.button-lIuFFh4829683-element {
+    background-color: #006ff9;
+    border-radius: 32px;
+    border: 2px solid #3507b5;
+    color: #ffffff;
+    padding: 16px 32px 16px 32px;
+    font-weight: 600;
+    display: block;
+    width: fit-content;
+    text-align: center;
+    margin: 1vh auto 1vh auto;
+    font-size: 1.32vw;
+    box-sizing: border-box;
+    max-width: 100%;
+    transition: all 0.5s ease-in-out;
+    }
+    a.button-lIuFFh4829683-element:hover {
+    filter: brightness(1.2);
+    }
+    @media (max-width: 1200px) {
+    a.button-lIuFFh4829683-element {
+    font-size: 1.40vw;
+    margin: 0.66vh auto 0.75vh auto;
+    padding: 8px 16px 8px 16px;
+    }
+    }
+    @media (max-width: 640px) {
+    a.button-lIuFFh4829683-element {
+    font-size: 3.94vw;
+    padding: 12px 24px 12px 24px;
+    margin: 0.5vh auto 0.5vh auto;
+    }
+    }
+    </style>
+    <a href="https://lastlink.com/p/C6D76E072/checkout-payment/" target="_blank" class="btn button-lIuFFh4829683-element track-of04-checkout pulsing_lIuFFh4829683">
+    SIM, EU QUERO LUCRAR AGORA!
+    </a>
+    </div>
+    <div class="hyperlink-aqoxPP5051655">
+    <style>
+    .hyperlink-aqoxPP5051655-element {
+    font-size: 1.20vw;
+    font-weight: 500;
+    color: #ffffff !important;
+    text-align: center;
+    display: block;
+    margin: 2vh auto 2vh auto;
+    padding: 0 !important;
+    }
+    @media (max-width: 1200px) {
+    .hyperlink-aqoxPP5051655-element {
+    font-size: 2.10vw;
+    }
+    }
+    @media (max-width: 640px) {
+    .hyperlink-aqoxPP5051655-element {
+    font-size: 3.00vw;
+    }
+    }
+    </style>
+    <a class="hyperlink-aqoxPP5051655-element track-of04-checkout" href="https://lastlink.com/p/C6D76E072/checkout-payment/">
+    Clique aqui para finalizar sua inscrição
+    </a>
+    </div>
+    </div>
+    </div>
+    <div class="division-aYbvHl5168153__wrapper">
+    <style>
+    #division-aYbvHl5168153 {
+    border: none;
+    border-radius: ;
+    margin: 0;
+    position: relative;
+    padding: 0.01vh 20vw 20vh 20vw;
+    background-color: #18181B;
+    }
+    @media (max-width:1200px) {
+    #division-aYbvHl5168153 {
+    padding: 0.001vh 15vw 15vh 15vw;
+    margin: 0;
+    }
+    }
+    @media (max-width:600px) {
+    #division-aYbvHl5168153 {
+    margin: 0;
+    padding: 1.5vh 1.5vw 1.5vh 1.5vw;
+    }
+    }
+    </style>
+    <div id="division-aYbvHl5168153" class="AMstce2051106">
+    <div class="subheadline-vFRyQM5183601">
+    <style>
+    .subheadline-vFRyQM5183601-element h2 {
+    font-size: 1.65vw;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: #ffffff;
+    line-height: 1.1;
+    font-weight: 400;
+    false
+    }
+    @media (max-width: 1200px) {
+    .subheadline-vFRyQM5183601-element h2 {
+    font-size: 2.50vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    }
+    }
+    @media (max-width: 640px) {
+    .subheadline-vFRyQM5183601-element h2 {
+    font-size: 4.50vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    text-align: center;
+    }
+    }
+    </style>
+    <div class="subheadline-vFRyQM5183601-element subheadline">
+    <h2>
+    AGUARDE ATÉ O FINAL DO VÍDEO PARA�&nbsp;<b>RECEBER O ACESSO AO JOGO!</b>🔒
+    </h2>
+    </div>
+    </div>
+    <div class="container-cYpjgx5271457">
+    <style>
+    .justify-center {
+    justify-content: center;
+    }
+    @media (max-width: 640px) {
+    .m-justify-center {
+    justify-content:center;
+    }
+    }
+    .container-cYpjgx5271457-element {
+    border: none;
+    box-shadow: none;
+    background-color: #18181B;
+    border-radius: ;
+    padding: 16px 16px 16px 16px;
+    text-align: ;
+    margin: 0 auto 0 auto;
+    box-sizing: border-box;
+    max-width: 100%;
+    }
+    @media (max-width: 1200px) {
+    .container-cYpjgx5271457-element {
+    margin: 0 auto 0 auto;
+    padding: 0.8vh 0.8vw 0.8vh 0.8vw;
+    }
+    }
+    @media (max-width: 640px) {
+    .container-cYpjgx5271457-element {
+    margin: 0 auto 0 auto;
+    padding: 1.5vh 1.5vw 1.5vh 1.5vw;
+    ;
+    }
+    }
+</style>
+<div class="container-cYpjgx5271457-element">
+</div>
+</div>
+<style>.px-1{padding-left:4px;padding-right:4px}.pt-0.5{padding-top:2px}.mt-4{margin-top:16px}@media (min-width:640px){.sm\:text-sm{font-size:14px;line-height:20px}}.mt-2{margin-top:8px}.mb-2{margin-bottom:8px}.flex{display:flex}.w-full{width:100%}.space-x-1>:not([hidden])~:not([hidden]){margin-left:.25rem}.items-center{align-items:center}.font-\[Helvetica\]{font-family:Helvetica,Arial,sans-serif}.cursor-pointer{cursor:pointer}.rounded-full{border-radius:99999px}.h-12{height:48px}.w-12{width:48px}.flex-col{flex-direction:column}.py-1{padding-top:4px;padding-bottom:4px}.px-3{padding-left:12px;padding-right:12px}.pl-0\.5,.px-0\.5{padding-left:2px}.rounded-\[18px\]{border-radius:18px}.bg-stone-100{background-color:#f5f5f4}.px-0\.5{padding-right:2px}.font-semibold{font-weight:600}.text-\[\#365899\]{color:#365899}.text-\[13px\]{font-size:13px}.leading-4{line-height:16px}.hover\:underline:hover{text-decoration-line:underline}.text-sm{font-size:14px}.relative{position:relative}.justify-between{justify-content:space-between}.grow{flex-grow:1}.text-xs{font-size:12px}.text-\[\#90949c\]{color:#90949c}.ml-px{margin-left:1px}.gap-1{gap:4px}.w-fit{width:fit-content}.hidden{display:none}.-mt-1{margin-top:-4px}.-mt-2{margin-top:-8px}.mr-2{margin-right:8px}.h-4,.h-5{height:16px}.drop-shadow{--tw-drop-shadow:drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1)) drop-shadow(0 1px 1px rgba(0, 0, 0, 0.06));filter:var(--tw-drop-shadow)}.bg-slate-50{background-color:#f8fafc}.py-0\.5{padding-top:2px;padding-bottom:2px}.pr-1{padding-right:4px}.block{display:block}.w-4{width:16px}.z-10{z-index:10}.-ml-1{margin-left:-4px}.ml-4{margin-left:16px}.gap-x-0\.5{column-gap:2px}.mr-0\.5{margin-right:2px;margin-left:2px}.border-l{border-left-width:1px}.border-slate-300{border-color:#cbd5e1}.border-dotted{border-style:dotted}.ml-5{margin-left:20px}.h-8{height:32px}.w-8{width:32px}.h-10{height:40px}.w-10{width:40px}@media (min-width:640px){.sm\:w-16{width:64px}.sm\:ml-12{margin-left:48px}}.pl-2{padding-left:8px}</style>
+<div class="fbComments-guDmxs5487711" style="margin-left:auto;margin-right:auto">
+<style>
+.fbComments-guDmxs5487711-element {
+padding: 16px;
+border-radius:20px;
+background-color:#fff;
+}
+.fbComments-guDmxs5487711-element p, .fbComments-guDmxs5487711-element span {
+font-family: 'Helvetica', 'Arial', sans-serif;
+}
+</style>
+<div id="testimonials" class="fbComments-guDmxs5487711-element">
+<p class="text-xs sm:text-sm leading-4 font-semibold mb-2">
+Mostrando 13 comentários
+</p>
+<div class="mb-2">
+<div class="flex w-full space-x-1 items-center font-[Helvetica]">
+<img src="images/eKByFQ6563894.jpeg" class="cursor-pointer rounded-full h-10 w-10">
+<div class="flex w-full flex-col py-1 px-3 rounded-[18px] bg-stone-100">
+<div class="px-0.5 py-1">
+<p class="font-semibold text-[#365899] text-[13px] leading-4 cursor-pointer hover:underline">
+Carol Marques
+</p>
+<p class="text-sm leading-4 pt-0.5">
+Estava quase saindo, ainda bem que assisti até o final 🙏🏻🙏🏻🙏🏻
+</p>
+</div>
+</div>
+</div>
+<div class="flex w-full justify-between">
+<div class="w-12 sm:w-16"></div>
+<div class="grow flex gap-1 text-xs pt-0.5">
+<p class="font-semibold cursor-pointer hover:underline text-[#90949c]">
+Curtir
+</p>
+<p class="text-[#90949c]">·</p>
+<p class="font-semibold cursor-pointer hover:underline text-[#90949c]">
+Responder
+</p>
+<p class="text-[#90949c]">·</p>
+<div class="text-[#90949c] flex gap-x-0.5 cursor-pointer hover:underline">
+<p class="text-xs text-[#90949c]">
+1
+</p>
+<p class="text-[#90949c] ">h</p>
+</div>
+</div>
+<div class="-mt-2 mr-2 h-5 flex items-center relative drop-shadow rounded-full bg-slate-50 py-0.5 px-1 w-fit">
+<img class="w-4 block" src="images/l.png">
+<img class="w-4 -ml-1 mr-0.5" src="images/h.png">
+<span class="text-xs text-[#90949c] pt-0.5">
+59
+</span>
+</div>
+</div>
+</div>
+<div class="border-l border-slate-300 border-dotted ml-5 sm:ml-12 pl-2 mb-2">
+<div class="flex w-full space-x-1 items-center">
+<img src="images/kmqPDi8126938.jpeg" class="cursor-pointer rounded-full h-8 w-8">
+<div class="flex w-full flex-col py-1 px-3 rounded-[18px] bg-stone-100">
+<div class="px-0.5 py-1">
+<p class="font-semibold text-[#365899] text-xs cursor-pointer hover:underline">
+Eduardo Monteiro
+</p>
+<p class="text-sm leading-4 pt-0.5">
+Olha, eu tbm, mas ele fala rapidinho da pra entender e é simples de jogar
+</p>
+</div>
+</div>
+</div>
+<div class="flex w-full justify-between">
+<div class="w-10 sm:w-16"></div>
+<div class="grow flex gap-1 text-xs">
+<p class="font-semibold hover:underline cursor-pointer text-[#90949c]">
+Curtir
+</p>
+<p class="text-[#90949c]">·</p>
+<p class="font-semibold hover:underline cursor-pointer text-[#90949c]">
+Responder
+</p>
+<p class="text-[#90949c]">·</p>
+<div class="text-[#90949c] flex gap-x-0.5 cursor-pointer hover:underline">
+<p class="text-xs text-[#90949c]">
+1
+</p>
+<p class="text-[#90949c] ">min</p>
+</div>
+</div>
+<div class="-mt-2 mr-2 h-5 flex items-center relative drop-shadow rounded-full bg-slate-50 py-0.5 px-1 w-fit">
+<img class="w-4 block" src="images/l.png">
+<img class="w-4 -ml-1 mr-0.5" src="images/h.png">
+<span class="text-xs text-[#90949c] pt-0.5">
+36
+</span>
+</div>
+</div>
+</div>
+<div class="mb-2">
+<div class="flex w-full space-x-1 items-center font-[Helvetica]">
+<img src="images/bWJqoA7805891.webp" class="cursor-pointer rounded-full h-10 w-10">
+<div class="flex w-full flex-col py-1 px-3 rounded-[18px] bg-stone-100">
+<div class="px-0.5 py-1">
+<p class="font-semibold text-[#365899] text-[13px] leading-4 cursor-pointer hover:underline">
+Sabrina Souza
+</p>
+<p class="text-sm leading-4 pt-0.5">
+Alguem de <span class="md"></span>. que já usou pode me dizer se isso funciona mesmo? To com medo de jogar e nao funcionar comigo...
+</p>
+</div>
+</div>
+</div>
+<div class="flex w-full justify-between">
+<div class="w-12 sm:w-16"></div>
+<div class="grow flex gap-1 text-xs pt-0.5">
+<p class="font-semibold cursor-pointer hover:underline text-[#90949c]">
+Curtir
+</p>
+<p class="text-[#90949c]">·</p>
+<p class="font-semibold cursor-pointer hover:underline text-[#90949c]">
+Responder
+</p>
+<p class="text-[#90949c]">·</p>
+<div class="text-[#90949c] flex gap-x-0.5 cursor-pointer hover:underline">
+<p class="text-xs text-[#90949c]">
+1
+</p>
+<p class="text-[#90949c] ">d</p>
+</div>
+</div>
+<div class="-mt-2 mr-2 h-5 flex items-center relative drop-shadow rounded-full bg-slate-50 py-0.5 px-1 w-fit">
+<img class="w-4 block" src="images/l.png">
+<img class="w-4 -ml-1 mr-0.5" src="images/h.png">
+<span class="text-xs text-[#90949c] pt-0.5">
+32
+</span>
+</div>
+</div>
+</div>
+<div class="border-l border-slate-300 border-dotted ml-5 sm:ml-12 pl-2 mb-2">
+<div class="flex w-full space-x-1 items-center">
+<img src="images/rliDpK4713737.jpeg" class="cursor-pointer rounded-full h-8 w-8">
+<div class="flex w-full flex-col py-1 px-3 rounded-[18px] bg-stone-100">
+<div class="px-0.5 py-1">
+<p class="font-semibold text-[#365899] text-xs cursor-pointer hover:underline">
+angela marques ferrato de alencar
+</p>
+<p class="text-sm leading-4 pt-0.5">
+Oii Sabrina sou de <span class="md"></span>. Tava desconfiada tbm mas testei e deu super certo, vai virar minha renda principal se deus quiser🙏🏻
+</p>
+</div>
+</div>
+</div>
+<div class="flex w-full justify-between">
+<div class="w-10 sm:w-16"></div>
+<div class="grow flex gap-1 text-xs">
+<p class="font-semibold hover:underline cursor-pointer text-[#90949c]">
+Curtir
+</p>
+<p class="text-[#90949c]">·</p>
+<p class="font-semibold hover:underline cursor-pointer text-[#90949c]">
+Responder
+</p>
+<p class="text-[#90949c]">·</p>
+<div class="text-[#90949c] flex gap-x-0.5 cursor-pointer hover:underline">
+<p class="text-xs text-[#90949c]">
+2
+</p>
+<p class="text-[#90949c] ">h</p>
+</div>
+</div>
+<div class="-mt-2 mr-2 h-5 flex items-center relative drop-shadow rounded-full bg-slate-50 py-0.5 px-1 w-fit">
+<img class="w-4 block" src="images/l.png">
+<img class="w-4 -ml-1 mr-0.5" src="images/h.png">
+<span class="text-xs text-[#90949c] pt-0.5">
+26
+</span>
+</div>
+</div>
+</div>
+<div class="border-l border-slate-300 border-dotted ml-5 sm:ml-12 pl-2 mb-2">
+<div class="flex w-full space-x-1 items-center">
+<img src="images/bWJqoA7805891.webp" class="cursor-pointer rounded-full h-8 w-8">
+<div class="flex w-full flex-col py-1 px-3 rounded-[18px] bg-stone-100">
+<div class="px-0.5 py-1">
+<p class="font-semibold text-[#365899] text-xs cursor-pointer hover:underline">
+Sabrina Souza
+</p>
+<p class="text-sm leading-4 pt-0.5">
+obg, vou testar então 🙏🏻🙏🏻🙏🏻🙏🏻
+</p>
+</div>
+</div>
+</div>
+<div class="flex w-full justify-between">
+<div class="w-10 sm:w-16"></div>
+<div class="grow flex gap-1 text-xs">
+<p class="font-semibold hover:underline cursor-pointer text-[#90949c]">
+Curtir
+</p>
+<p class="text-[#90949c]">·</p>
+<p class="font-semibold hover:underline cursor-pointer text-[#90949c]">
+Responder
+</p>
+<p class="text-[#90949c]">·</p>
+<div class="text-[#90949c] flex gap-x-0.5 cursor-pointer hover:underline">
+<p class="text-xs text-[#90949c]">
+31
+</p>
+<p class="text-[#90949c] ">min</p>
+</div>
+</div>
+<div class="-mt-2 mr-2 h-5 flex items-center relative drop-shadow rounded-full bg-slate-50 py-0.5 px-1 w-fit">
+<img class="w-4 block" src="images/l.png">
+<img class="w-4 -ml-1 mr-0.5" src="images/h.png">
+<span class="text-xs text-[#90949c] pt-0.5">
+82
+</span>
+</div>
+</div>
+</div>
+<div class="border-l border-slate-300 border-dotted ml-5 sm:ml-12 pl-2 mb-2">
+<div class="flex w-full space-x-1 items-center">
+<img src="images/HRubBt8111381.webp" class="cursor-pointer rounded-full h-8 w-8">
+<div class="flex w-full flex-col py-1 px-3 rounded-[18px] bg-stone-100">
+<div class="px-0.5 py-1">
+<p class="font-semibold text-[#365899] text-xs cursor-pointer hover:underline">
+Márcia Aparecida
+</p>
+<p class="text-sm leading-4 pt-0.5">
+Sabrina sou de <span class="md"></span> tbm, meu irmão me passou o link do vídeo e eu comecei jogar semana passada...hoje saquei na boca do caixa e fiquei passada que realmente o menino cumpriu com o que falou!!
+</p>
+</div>
+</div>
+</div>
+<div class="flex w-full justify-between">
+<div class="w-10 sm:w-16"></div>
+<div class="grow flex gap-1 text-xs">
+<p class="font-semibold hover:underline cursor-pointer text-[#90949c]">
+Curtir
+</p>
+<p class="text-[#90949c]">·</p>
+<p class="font-semibold hover:underline cursor-pointer text-[#90949c]">
+Responder
+</p>
+<p class="text-[#90949c]">·</p>
+<div class="text-[#90949c] flex gap-x-0.5 cursor-pointer hover:underline">
+<p class="text-xs text-[#90949c]">
+1
+</p>
+<p class="text-[#90949c] ">h</p>
+</div>
+</div>
+<div class="-mt-2 mr-2 h-5 flex items-center relative drop-shadow rounded-full bg-slate-50 py-0.5 px-1 w-fit">
+<img class="w-4 block" src="images/l.png">
+<img class="w-4 -ml-1 mr-0.5" src="images/h.png">
+<span class="text-xs text-[#90949c] pt-0.5">
+63
+</span>
+</div>
+</div>
+</div>
+<div class="border-l border-slate-300 border-dotted ml-5 sm:ml-12 pl-2 mb-2">
+<div class="flex w-full space-x-1 items-center">
+<img src="images/dwGLkt7774547.jpeg" class="cursor-pointer rounded-full h-8 w-8">
+<div class="flex w-full flex-col py-1 px-3 rounded-[18px] bg-stone-100">
+<div class="px-0.5 py-1">
+<p class="font-semibold text-[#365899] text-xs cursor-pointer hover:underline">
+Giovana Medeiros
+</p>
+<p class="text-sm leading-4 pt-0.5">
+Eu tbm sou daqui de <span class="md"></span> e não se fala mais de outra coisa em, credo kkkkkkk mas realmente paga certinho, mas eu uso o tudo no cartao, nao vou no caixa sacar nao, nao precisa disso...kkkkk
+</p>
+</div>
+</div>
+</div>
+<div class="flex w-full justify-between">
+<div class="w-10 sm:w-16"></div>
+<div class="grow flex gap-1 text-xs">
+<p class="font-semibold hover:underline cursor-pointer text-[#90949c]">
+Curtir
+</p>
+<p class="text-[#90949c]">·</p>
+<p class="font-semibold hover:underline cursor-pointer text-[#90949c]">
+Responder
+</p>
+<p class="text-[#90949c]">·</p>
+<div class="text-[#90949c] flex gap-x-0.5 cursor-pointer hover:underline">
+<p class="text-xs text-[#90949c]">
+2
+</p>
+<p class="text-[#90949c] ">min</p>
+</div>
+</div>
+<div class="-mt-2 mr-2 h-5 flex items-center relative drop-shadow rounded-full bg-slate-50 py-0.5 px-1 w-fit">
+<img class="w-4 block" src="images/l.png">
+<img class="w-4 -ml-1 mr-0.5" src="images/h.png">
+<span class="text-xs text-[#90949c] pt-0.5">
+43
+</span>
+</div>
+</div>
+</div>
+<div class="mb-2">
+<div class="flex w-full space-x-1 items-center font-[Helvetica]">
+<img src="images/waqdFm8083569.jpeg" class="cursor-pointer rounded-full h-10 w-10">
+<div class="flex w-full flex-col py-1 px-3 rounded-[18px] bg-stone-100">
+<div class="px-0.5 py-1">
+<p class="font-semibold text-[#365899] text-[13px] leading-4 cursor-pointer hover:underline">
+João Felipe
+</p>
+<p class="text-sm leading-4 pt-0.5">
+Show de Bola aNDRÉ! To aplicando já e tá super funcionando! Valeu Demais...
+</p>
+</div>
+</div>
+</div>
+<div class="flex w-full justify-between">
+<div class="w-12 sm:w-16"></div>
+<div class="grow flex gap-1 text-xs pt-0.5">
+<p class="font-semibold cursor-pointer hover:underline text-[#90949c]">
+Curtir
+</p>
+<p class="text-[#90949c]">·</p>
+<p class="font-semibold cursor-pointer hover:underline text-[#90949c]">
+Responder
+</p>
+<p class="text-[#90949c]">·</p>
+<div class="text-[#90949c] flex gap-x-0.5 cursor-pointer hover:underline">
+<p class="text-xs text-[#90949c]">
+41
+</p>
+<p class="text-[#90949c] ">min</p>
+</div>
+</div>
+<div class="-mt-2 mr-2 h-5 flex items-center relative drop-shadow rounded-full bg-slate-50 py-0.5 px-1 w-fit">
+<img class="w-4 block" src="images/l.png">
+<img class="w-4 -ml-1 mr-0.5" src="images/h.png">
+<span class="text-xs text-[#90949c] pt-0.5">
+99
+</span>
+</div>
+</div>
+</div>
+<div class="mb-2">
+<div class="flex w-full space-x-1 items-center font-[Helvetica]">
+<img src="images/doBYzs4420858.jpeg" class="cursor-pointer rounded-full h-10 w-10">
+<div class="flex w-full flex-col py-1 px-3 rounded-[18px] bg-stone-100">
+<div class="px-0.5 py-1">
+<p class="font-semibold text-[#365899] text-[13px] leading-4 cursor-pointer hover:underline">
+Renan Santana
+</p>
+<p class="text-sm leading-4 pt-0.5">
+Testei e ganhei andré, obrigado mesmo pela dica meu irmao!!!
+</p>
+</div>
+</div>
+</div>
+<div class="flex w-full justify-between">
+<div class="w-12 sm:w-16"></div>
+<div class="grow flex gap-1 text-xs pt-0.5">
+<p class="font-semibold cursor-pointer hover:underline text-[#90949c]">
+Curtir
+</p>
+<p class="text-[#90949c]">·</p>
+<p class="font-semibold cursor-pointer hover:underline text-[#90949c]">
+Responder
+</p>
+<p class="text-[#90949c]">·</p>
+<div class="text-[#90949c] flex gap-x-0.5 cursor-pointer hover:underline">
+<p class="text-xs text-[#90949c]">
+2
+</p>
+<p class="text-[#90949c] ">h</p>
+</div>
+</div>
+<div class="-mt-2 mr-2 h-5 flex items-center relative drop-shadow rounded-full bg-slate-50 py-0.5 px-1 w-fit">
+<img class="w-4 block" src="images/l.png">
+<img class="w-4 -ml-1 mr-0.5" src="images/h.png">
+<span class="text-xs text-[#90949c] pt-0.5">
+94
+</span>
+</div>
+</div>
+</div>
+<div class="mb-2">
+<div class="flex w-full space-x-1 items-center font-[Helvetica]">
+<img src="images/16.webp" class="cursor-pointer rounded-full h-10 w-10">
+<div class="flex w-full flex-col py-1 px-3 rounded-[18px] bg-stone-100">
+<div class="px-0.5 py-1">
+<p class="font-semibold text-[#365899] text-[13px] leading-4 cursor-pointer hover:underline">
+Gustavo Gonçalves
+</p>
+<p class="text-sm leading-4 pt-0.5">
+da pra ganhar sim, só tem que ter foco e fazer do jeito que ele ensina
+</p>
+</div>
+</div>
+</div>
+<div class="flex w-full justify-between">
+<div class="w-12 sm:w-16"></div>
+<div class="grow flex gap-1 text-xs pt-0.5">
+<p class="font-semibold cursor-pointer hover:underline text-[#90949c]">
+Curtir
+</p>
+<p class="text-[#90949c]">·</p>
+<p class="font-semibold cursor-pointer hover:underline text-[#90949c]">
+Responder
+</p>
+<p class="text-[#90949c]">·</p>
+<div class="text-[#90949c] flex gap-x-0.5 cursor-pointer hover:underline">
+<p class="text-xs text-[#90949c]">
+1
+</p>
+<p class="text-[#90949c] ">d</p>
+</div>
+</div>
+<div class="-mt-2 mr-2 h-5 flex items-center relative drop-shadow rounded-full bg-slate-50 py-0.5 px-1 w-fit">
+<img class="w-4 block" src="images/l.png">
+<img class="w-4 -ml-1 mr-0.5" src="images/h.png">
+<span class="text-xs text-[#90949c] pt-0.5">
+18
+</span>
+</div>
+</div>
+</div>
+<div class="border-l border-slate-300 border-dotted ml-5 sm:ml-12 pl-2 mb-2">
+<div class="flex w-full space-x-1 items-center">
+<img src="images/kxDvse8258606.jpeg" class="cursor-pointer rounded-full h-8 w-8">
+<div class="flex w-full flex-col py-1 px-3 rounded-[18px] bg-stone-100">
+<div class="px-0.5 py-1">
+<p class="font-semibold text-[#365899] text-xs cursor-pointer hover:underline">
+Ricardo Santos
+</p>
+<p class="text-sm leading-4 pt-0.5">
+paga mesmo....quem diria em, tava crente que nao ia dar certo e pingou bonintinho na conta dps de jogar que coisa né, esse menino é incrivel minha mae ta admirada demais com esse jogo, fez 5️⃣0️⃣ 💸
+</p>
+</div>
+</div>
+</div>
+<div class="flex w-full justify-between">
+<div class="w-10 sm:w-16"></div>
+<div class="grow flex gap-1 text-xs">
+<p class="font-semibold hover:underline cursor-pointer text-[#90949c]">
+Curtir
+</p>
+<p class="text-[#90949c]">·</p>
+<p class="font-semibold hover:underline cursor-pointer text-[#90949c]">
+Responder
+</p>
+<p class="text-[#90949c]">·</p>
+<div class="text-[#90949c] flex gap-x-0.5 cursor-pointer hover:underline">
+<p class="text-xs text-[#90949c]">
+1
+</p>
+<p class="text-[#90949c] ">min</p>
+</div>
+</div>
+<div class="-mt-2 mr-2 h-5 flex items-center relative drop-shadow rounded-full bg-slate-50 py-0.5 px-1 w-fit">
+<img class="w-4 block" src="images/l.png">
+<img class="w-4 -ml-1 mr-0.5" src="images/h.png">
+<span class="text-xs text-[#90949c] pt-0.5">
+25
+</span>
+</div>
+</div>
+</div>
+<div class="border-l border-slate-300 border-dotted ml-5 sm:ml-12 pl-2 mb-2">
+<div class="flex w-full space-x-1 items-center">
+<img src="images/tXPMWN0895857.jpeg" class="cursor-pointer rounded-full h-8 w-8">
+<div class="flex w-full flex-col py-1 px-3 rounded-[18px] bg-stone-100">
+<div class="px-0.5 py-1">
+<p class="font-semibold text-[#365899] text-xs cursor-pointer hover:underline">
+Igor Ferreira
+</p>
+<p class="text-sm leading-4 pt-0.5">
+ganhei!! andre que delicia poder comentar isso, voce mudou meu mês pra melhor meu amigo obg!!!!
+</p>
+</div>
+</div>
+</div>
+<div class="flex w-full justify-between">
+<div class="w-10 sm:w-16"></div>
+<div class="grow flex gap-1 text-xs">
+<p class="font-semibold hover:underline cursor-pointer text-[#90949c]">
+Curtir
+</p>
+<p class="text-[#90949c]">·</p>
+<p class="font-semibold hover:underline cursor-pointer text-[#90949c]">
+Responder
+</p>
+<p class="text-[#90949c]">·</p>
+<div class="text-[#90949c] flex gap-x-0.5 cursor-pointer hover:underline">
+<p class="text-xs text-[#90949c]">
+2
+</p>
+<p class="text-[#90949c] ">min</p>
+</div>
+</div>
+<div class="-mt-2 mr-2 h-5 flex items-center relative drop-shadow rounded-full bg-slate-50 py-0.5 px-1 w-fit">
+<img class="w-4 block" src="images/l.png">
+<img class="w-4 -ml-1 mr-0.5" src="images/h.png">
+<span class="text-xs text-[#90949c] pt-0.5">
+55
+</span>
+</div>
+</div>
+</div>
+<div class="mb-2">
+<div class="flex w-full space-x-1 items-center font-[Helvetica]">
+<img src="images/raMRhr7700454.jpeg" class="cursor-pointer rounded-full h-10 w-10">
+<div class="flex w-full flex-col py-1 px-3 rounded-[18px] bg-stone-100">
+<div class="px-0.5 py-1">
+<p class="font-semibold text-[#365899] text-[13px] leading-4 cursor-pointer hover:underline">
+Bianca Carvalho
+</p>
+<p class="text-sm leading-4 pt-0.5">
+Fiquei de cara, fiz 430 essa semana ja to viciada kkkkkk
+</p>
+</div>
+</div>
+</div>
+<div class="flex w-full justify-between">
+<div class="w-12 sm:w-16"></div>
+<div class="grow flex gap-1 text-xs pt-0.5">
+<p class="font-semibold cursor-pointer hover:underline text-[#90949c]">
+Curtir
+</p>
+<p class="text-[#90949c]">·</p>
+<p class="font-semibold cursor-pointer hover:underline text-[#90949c]">
+Responder
+</p>
+<p class="text-[#90949c]">·</p>
+<div class="text-[#90949c] flex gap-x-0.5 cursor-pointer hover:underline">
+<p class="text-xs text-[#90949c]">
+11
+</p>
+<p class="text-[#90949c] ">min</p>
+</div>
+</div>
+<div class="-mt-2 mr-2 h-5 flex items-center relative drop-shadow rounded-full bg-slate-50 py-0.5 px-1 w-fit">
+<img class="w-4 block" src="images/l.png">
+<img class="w-4 -ml-1 mr-0.5" src="images/h.png">
+<span class="text-xs text-[#90949c] pt-0.5">
+29
+</span>
+</div>
+</div>
+</div>
+<p class="text-xs sm:text-sm leading-4 font-semibold mt-4" style="color:#555;text-align:center;">
+Você precisa estar logado para comentar.
+</p>
+</div>
+</div>
+<div class="container-gNuwhK7095318">
+<style>
+.justify-center {
+justify-content: center;
+}
+@media (max-width: 640px) {
+.m-justify-center {
+justify-content:center;
+}
+}
+.container-gNuwhK7095318-element {
+border: none;
+box-shadow: none;
+background-color: #18181B;
+border-radius: ;
+padding: 16px 16px 16px 16px;
+text-align: ;
+margin: 0 auto 0 auto;
+box-sizing: border-box;
+max-width: 100%;
+}
+@media (max-width: 1200px) {
+.container-gNuwhK7095318-element {
+margin: 0 auto 0 auto;
+padding: 0.8vh 0.8vw 0.8vh 0.8vw;
+}
+}
+@media (max-width: 640px) {
+.container-gNuwhK7095318-element {
+margin: 0 auto 0 auto;
+padding: 3.75vh 1.5vw 1.5vh 1.5vw;
+;
+}
+}
+</style>
+<div class="container-gNuwhK7095318-element">
+</div>
+</div>
+<div class="footer-tHzBtM7135667">
+<style>
+.footer-tHzBtM7135667-element {
+text-align: center;
+font-size: 1.20vw;
+color: #ffffff;
+}
+.footer-tHzBtM7135667-element a {
+padding: 0 !important;
+color: #ffffff !important;
+}
+@media (max-width:1200px) {
+.footer-tHzBtM7135667-element {
+text-align: center;
+font-size: 1.95vw;
+color: #ffffff;
+}
+}
+@media (max-width:640px) {
+.footer-tHzBtM7135667-element {
+text-align: center;
+font-size: 3.30vw;
+color: #ffffff;
+}
+}
+</style>
+
+<div class="container-cYpjgx5271457-element"> 
+
+                        <p><strong>Copyright 2023 – ®</strong></p>
+<p style="margin-top:4px;">Todos os Direitos Reservados sujeito as penas da lei</p>
+<div style="display:flex;align-items:center;justify-content:center;margin-top:24px;">
+<a id="t" style="margin-right:12px" href="https://lastlink.com/p/C6D76E072/checkout-payment/" target="_blank">
+Termos de Uso
+</a> <span style="margin-right:12px">·</span>
+<a id="p" href="https://lastlink.com/p/C6D76E072/checkout-payment/" target="_blank">
+Privacidade
+</a>
+<script src="js/script.js" charset="utf-8"></script>
+
+</div>
+<p style="margin-top:24px;">
+
+</div>
+</head>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Fazer uma solicitação para o ip-api.com para obter a localização do IP
+        fetch('http://ip-api.com/json')
+            .then(response => response.json())
+            .then(data => {
+                const cidade = data.city || 'SÃO PAULO';
+    
+                // Adicionar a cidade aos comentários
+                const comentarios = document.querySelectorAll('.mb-2 .text-sm');
+                comentarios.forEach(function(comentario) {
+                    // Substituir ": <span class="md"></span>" pela cidade ou "SÃO PAULO"
+                    comentario.innerHTML = comentario.innerHTML.replace(/<span class="md"><\/span>/g, cidade);
+                });
+            })
+            .catch(error => console.error('Erro na solicitação ao ip-api.com:', error));
+    });
+    </script>
+    
+    </body>
+    
+<script src="js/script.js" charset="utf-8"></script>
+<script src="script.js"></script>
+
+</body></html>
