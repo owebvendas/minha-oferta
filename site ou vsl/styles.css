@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100%; /* O container terá no máximo a largura do contêiner pai */
+  margin: 0 auto;  /* Centraliza o container na página */
+  padding: 20px;   /* Adicione um preenchimento interno se desejar */
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
